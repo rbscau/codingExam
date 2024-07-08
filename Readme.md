@@ -46,3 +46,14 @@ stage2.MainClass.main()
 ##### 方法3： supClass.ConsecutiveCharactersHandler.transform
 抽象方法，分别被stage1.ConsecutiveCharactersArrayCleaner  和 stage2.ConsecutiveCharactersArrayChanger
 覆盖。产生两种不同的重复字符处理逻辑，去除或者替换为字符排序的上一个字符。
+
+
+####  class  stage1.ConsecutiveCharactersArrayCleaner
+supClass.ConsecutiveCharactersHandler  的第一个子类，定义了清空相邻相同字符的算法
+
+
+####  class  stage2.ConsecutiveCharactersArrayChanger
+supClass.ConsecutiveCharactersHandler  的第二个子类，定义了把相邻相同字符替换为排位在前面字符串的方法
+
+
+
